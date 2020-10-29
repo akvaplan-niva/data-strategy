@@ -4,7 +4,7 @@ Authors:
   * [Conrad Helgeland](mailto:conrad.helgeland@akvaplan.niva.no)
   * [Anita Evenset](mailto:anita.evenset@akvaplan.niva.no)
 
-Citation: Akvaplan-niva (2020). {Title}. {DOI}.
+Citation: Akvaplan-niva (2020). {Title}. {DOI}. https://github.com/akvaplan-niva/data-strategy/blob/main/data-strategy-2020.md
 
 Modified: 2020-10-28
 
@@ -41,7 +41,7 @@ To signal a commitment to the long-term stability and permanence of a published 
 
 _Machines_, or programmable agents, should be able to access Akvaplan-niva's data through a standardised data catalog, following [linked data](https://www.w3.org/DesignIssues/LinkedData.html) principles.
 
-At the highest level, the programmable agent will get a list of available data catalogs, each representing a domain-specific data repository (a data storage service). Once inside a data catalog, the agent will receive a list of all datasets, and their data distributions. Consequently, it is trivial for the agent to obtain a complete representation of a dataset, or a replica of the entire repository. The agent simply follows links expressed in standardised data model (in eg. DCAT/[JSON-LD](https://json-ld.org/)) and issue a regular HTTP GET request for each of the linked resources.
+At the highest level, the programmable agent will get a list of available data catalogs, each representing a domain-specific data repository (a data storage service). Once inside a data catalog, the agent will receive a list of all datasets, and their data distributions. Consequently, it is trivial for the agent to obtain a complete representation of a dataset, or a replica of the entire repository. The agent simply follows links expressed in standardised data model (in eg. [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/)/[JSON-LD](https://json-ld.org/)) and issue a regular HTTP GET request for each of the linked resources.
 
 
 ## 3. Best practices
@@ -53,7 +53,7 @@ The [FAIR](https://doi.org/10.1038/sdata.2016.18) principles are now widely used
 Since 2017, [Norway's Research Council](https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/) requires that sponsered research data is managed in accordance with the FAIR principles.
 
 ### W3C
-Both humans and machines need to access data via the web. Akvaplan-niva's data publishing should incorporate the guidelines and principles from [W3C](https://w3.org)s' on standardising the web platform, and in particular their recommendations: [Data on the Web Best Practices](https://www.w3.org/TR/dwbp/) and [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/).
+Both humans and machines need to access data via the web. Akvaplan-niva's data publishing should incorporate the guidelines and principles from [W3C](https://w3.org)s' on standardising the web platform, and in particular their recommendations: [Data on the Web Best Practices](https://www.w3.org/TR/dwbp/), DCAT, and [Spatial Data on the Web Best Practices](https://www.w3.org/TR/sdw-bp/).
 
 ### International expertise
 Akvaplan-niva data management practices should continue to be sensitive to best practices and recommandations from experts working with scientific data management, in particular:
@@ -72,6 +72,7 @@ Operating from Norway, Akvaplan-niva should also incorporate guidelines and stra
 ## Appendix
 
 ### The Research Council’s guidelines
+```
 1.0 Research data must be stored/archived in a safe and secure manner.
 2.0 Research data must be made accessible for reuse.
 3.0 Research data should be made accessible at an early stage.
@@ -79,4 +80,5 @@ Operating from Norway, Akvaplan-niva should also incorporate guidelines and stra
 5.0 Research data must be provided with a license for access, reuse and redistribution.
 6.0 Research data should be made accessible at the lowest possible cost.
 7.0 The management of research data must be described in a data management plan.
-[Source]((https://www.forskningsradet.no/siteassets/publikasjoner/1254032622112.pdf)) 
+```
+[Source]((https://www.forskningsradet.no/siteassets/publikasjoner/1254032622112.pdf))
